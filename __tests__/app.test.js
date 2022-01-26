@@ -2,7 +2,7 @@ const pool = require('../lib/utils/pool');
 const setup = require('../data/setup');
 const request = require('supertest');
 const app = require('../lib/app');
-const Resource = require('../lib/models/resource.js');
+const Resource = require('../lib/models/Resource.js');
 
 describe('backend routes', () => {
   beforeEach(() => {
